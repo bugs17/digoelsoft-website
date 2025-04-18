@@ -1,11 +1,9 @@
 import React from 'react'
-import { ArrowDown, Mail, SendHorizonal } from 'lucide-react'
+import { ArrowDown } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { TextEffect } from '@/components/ui/text-effect'
 import { AnimatedGroup } from '@/components/ui/animated-group'
 import { HeroHeader } from '@/components/hero5-header'
-import { LogoCloud } from '@/components/logo-cloud'
-import Image from 'next/image'
 import Link from 'next/link'
 
 const transitionVariants = {

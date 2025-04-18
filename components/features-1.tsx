@@ -1,5 +1,5 @@
 import { Card, CardContent, CardHeader } from '@/components/ui/card'
-import { Cog, GaugeCircle, Rocket, Settings2, Shield, Sparkles, Zap } from 'lucide-react'
+import { Cog, Rocket, Shield } from 'lucide-react'
 import { ReactNode } from 'react'
 
 export default function Features() {
