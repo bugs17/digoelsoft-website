@@ -5,7 +5,7 @@ const members = [
     },
     {
         name: 'Febrian Silubun',
-        avatar: '/feb.jpg',
+        avatar: '/feb.jpeg',
     }
 ]
 
