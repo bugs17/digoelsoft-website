@@ -6,10 +6,11 @@ WORKDIR /app
 
 
 COPY package*.json ./
-RUN npm install
+RUN npm install --legacy-peer-deps
 
-# PAKSA install lightningcss versi gnu (karena kita pakai Debian)
-RUN npm install lightningcss-linux-x64-gnu
+# 2. Paksa instalasi native binding untuk Tailwind v4 & Next 16
+# Kita gunakan --legacy-peer-deps juga di sini agar konsisten
+RUN npm install @tailwindcss/oxide-linux-x64-gnu lightningcss-linux-x64-gnu --legacy-peer-deps
 
 # Menyalin seluruh direktori proyek ke dalam container
 COPY . .
